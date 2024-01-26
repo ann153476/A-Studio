@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1400px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  width: 100%;
+  padding: 0 60px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 500px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.hero {
+  display: flex;
+  height: 580px;
+  position: relative;
+  background-image: url("./img/Dot\ Ornament.png"), url("./img/Ellipse\ 85.png"),
+    url("./img/Rectangle\ 23.png");
+  background-position: 100px 200px, 55% 0px, 80% 80%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+.hero img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+}
+.h-1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 50px;
+  left: 90px;
+  width: 370px;
+  height: 190px;
+}
+.btn-c {
+  background-color: #2639ed;
+  border: none;
+  width: 180px;
+  height: 30px;
+  border-radius: 20px;
+  color: white;
+  font-size: larger;
+}
+.h-1-p-1 {
+  font-size: 32px;
+}
+.Our__Client {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+.o-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 90px;
+}
+.logo_box {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+.logo_box li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.o-1 p {
+  color: grey;
+}
+.how {
+  height: 860px;
+  border: 1px solid red;
+}
